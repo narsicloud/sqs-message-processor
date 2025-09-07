@@ -1,0 +1,16 @@
+{
+  "name": "sqs-message-processor",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@aws-sdk/client-sqs": "^3.883.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0"
+  }
+}
