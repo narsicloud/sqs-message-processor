@@ -1,12 +1,17 @@
 {
   "name": "sqs-message-processor",
   "version": "1.0.0",
+  "description": "A message processor library with retry support for serverless apps",
+  "files": [
+    "dist"
+  ],
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "type": "module",
   "scripts": {
     "build": "tsc",
-    "test": "jest --coverage"
+    "test": "jest --coverage",
+    "prepublishOnly": "npm run build"
   },
   "dependencies": {
     "@aws-sdk/client-sqs": "^3.883.0"
