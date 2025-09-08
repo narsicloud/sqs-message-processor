@@ -1,6 +1,6 @@
 # SQS Message Processor
 
-[![npm version](https://img.shields.io/npm/v/sqs-message-processor.svg)](https://www.npmjs.com/package/@narsicloud/sqs-message-processor)
+[![npm version](https://img.shields.io/npm/v/@narsicloud/sqs-message-processor.svg)](https://www.npmjs.com/package/@narsicloud/sqs-message-processor)
 
 **SQS Message Processor** is a reusable TypeScript library for processing AWS SQS messages with **automatic retries** (exponential backoff, linear, fixed) and optional **Dead Letter Queue (DLQ)** support. It is designed to be used in **serverless projects (Lambda)** or any Node.js worker application.
 
