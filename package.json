@@ -31,5 +31,17 @@
     "ts-jest": "^29.4.1",
     "typescript": "^5.4.0"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "keywords": [
+    "aws",
+    "sqs",
+    "serverless",
+    "lambda",
+    "retry",
+    "exponential-backoff",
+    "dead-letter-queue",
+    "message-queue",
+    "typescript",
+    "nodejs"
+  ]
 }
