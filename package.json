@@ -1,6 +1,6 @@
 {
   "name": "@narsicloud/sqs-message-processor",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A message processor library with retry support for serverless apps",
   "repository": {
     "type": "git",
