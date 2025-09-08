@@ -1,9 +1,10 @@
 {
-  "name": "sqs-message-processor",
+  "name": "@narsicloud/sqs-message-processor",
   "version": "1.0.0",
   "description": "A message processor library with retry support for serverless apps",
   "files": [
-    "dist"
+    "dist",
+    "LICENSE"
   ],
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -21,5 +22,6 @@
     "jest": "^30.1.3",
     "ts-jest": "^29.4.1",
     "typescript": "^5.4.0"
-  }
+  },
+  "license": "MIT"
 }
